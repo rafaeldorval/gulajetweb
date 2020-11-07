@@ -1,13 +1,11 @@
 import { combineReducers } from "redux";
 
 import { reducer as user } from "./user";
-import { reducer as chat } from "./chat";
-import { reducer as quickMessages } from "./quickMessages";
+import { reducer as clients } from "./clients";
 
 const reducers = combineReducers({
   user,
-  chat,
-  quickMessages,
+  clients
 });
 
 export default reducers;
