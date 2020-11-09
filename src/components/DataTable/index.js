@@ -1,10 +1,8 @@
 import React from 'react';
-import DataTable from 'material-table'
+import DataTable from 'material-table';
 // import { Container } from './styles';
 
 export default function DataTableComponent({ columns, data, loading }) {
-  console.tron.log('columns', columns)
-  console.tron.log('data', data)
   return (
     <DataTable
       columns={columns}
@@ -40,7 +38,8 @@ export default function DataTableComponent({ columns, data, loading }) {
       style={{
         width: '80%',
         height: '50%',
-        maxHeight: '50%'
-      }}/>
+        maxHeight: '50%',
+      }}
+    />
   );
 }
